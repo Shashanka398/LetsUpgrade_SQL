@@ -23,7 +23,7 @@ select * from coustomers
 select * from salesperson
 
 
-/*From the following tables write a query to find the salesperson and 
+/*From the following we can find  the salesperson and 
 customer who reside in the same city. Return Salesman, cust_name and city*/
 SELECT s.name as Salesman, c.cust_name, s.city
 FROM salesperson s
